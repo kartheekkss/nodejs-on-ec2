@@ -1,4 +1,4 @@
-FROM Node-12.2.0-alphine
+FROM ubuntu
 WORKDIR app
 COPY . .
 RUN npm install
