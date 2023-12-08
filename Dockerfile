@@ -1,4 +1,4 @@
-FROM Node-12.22.9-alphine
+FROM node-12.22.9-alphine
 WORKDIR app
 COPY . .
 RUN npm install
